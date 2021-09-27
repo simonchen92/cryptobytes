@@ -1,0 +1,19 @@
+:root {
+  --text-primary: #000;
+  --bgPrimary: #fff;
+  --bgSecondary: #f9f9f9;
+  --blue: #0071bd;
+  --light-blue: #e6f7ff;
+  --border: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+}
