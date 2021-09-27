@@ -1,0 +1,27 @@
+.nav-container {
+  flex: 0.2;
+  background-color: rgb(0, 21, 41);
+  position: fixed;
+  left: 0;
+  height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  padding: 1.25rem;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-container img{
+    width: 128px;
+    height: 80px;
+}
+
+.logo a {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+}
