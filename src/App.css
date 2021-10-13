@@ -16,10 +16,12 @@
 .app {
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
 
 .navbar {
   flex: 0.2;
+  /* width: 18%; */
 }
 
 .main {
@@ -29,6 +31,7 @@
 
 .routes {
   padding: 1.25rem;
+  width: 100%;
 }
 
 .footer {
@@ -39,7 +42,7 @@
   align-items: center;
 }
 
-.footer h5{
+.footer h5 {
   color: white !important;
   display: flex;
   flex-direction: column;
@@ -48,4 +51,46 @@
 
 .footer p {
   margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    margin-left: 31px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .navbar {
+    flex: 1;
+  }
+
+  .main {
+    flex: 1;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+
+  .ant-menu {
+    position: absolute;
+    right: 0;
+    top: 69px;
+  }
+  .home-title {
+    font-size: 1.4rem !important;
+  }
+  .show-more {
+    font-size: 1.3rem !important;
+  }
 }
