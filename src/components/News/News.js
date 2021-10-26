@@ -35,7 +35,7 @@ const News = ({ simplified }) => {
             optionFilterProp="children"
             onChange={(value) => setNewsCategory(value)}
             filterOption={(input, option) =>
-              option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+              option.toLowerCase().indexOf(input.toLowerCase()) >= 0
             }
           >
               <Option value="Cryptocurrency">Cryptocurrency</Option>
@@ -68,7 +68,7 @@ const News = ({ simplified }) => {
                       news.provider[0]?.image?.thumbnail?.contentUrl ||
                       demoImage
                     }
-                    alt=""
+                    alt="News Article Thumbnail"
                   />
                   <Text className="provider-name">
                     {news.provider[0]?.name}

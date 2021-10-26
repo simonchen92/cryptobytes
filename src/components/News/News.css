@@ -1,10 +1,10 @@
 .news-card {
-  min-height: 300px;
+  min-height: 300px !important;
 }
 
 .news-image-container {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  justify-content: space-between !important;
 }
 
 .news-image-container .img {
@@ -18,7 +18,7 @@
 
 .news-card p {
   color: black;
-  margin: 10px 0px;
+  margin: 10px 0px !important;
 }
 
 .provider-container {
@@ -30,6 +30,24 @@
   margin-left: 10px;
 }
 
-.select-news{
-    width: 200px;
+.select-news {
+  width: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .news-card {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news-card {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .news-card {
+    overflow: hidden;
+  }
 }
