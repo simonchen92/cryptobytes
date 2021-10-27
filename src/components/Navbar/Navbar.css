@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 800px) {
   .nav-container {
-    height: 8vh;
+    height: 9.5vh;
     position: fixed;
     width: 100%;
     z-index: 100;

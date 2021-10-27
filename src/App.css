@@ -82,6 +82,10 @@
     margin-left: 0px;
   }
 
+  .routes {
+    padding-top: 50px;
+  }
+
   .ant-menu {
     position: absolute;
     right: 0;
